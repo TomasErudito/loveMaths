@@ -105,10 +105,12 @@ function calculateCorrectAnswer() {
    }
 }
 function incrementScore() {
-    
+    let actualScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerHTML = ++actualScore;
 }
 function incrementWrongAnswers() {
-    
+    let actualScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerHTML = ++actualScore;
 }
 function displayAdditionQuestion(operand1, operand2) {
 
