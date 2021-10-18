@@ -14,9 +14,19 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 })
 
-function runGame(){
+/**
+ * The main game loop
+ * 
+ */
 
+function runGame(){
+    let num1 = Math.floor(Math.random()*12) + 1;
+    let num2 = Math.floor(Math.random()*12) + 1;
 }
+
+
+
+
 function checkAnswer(){
 
 }
